@@ -45,6 +45,12 @@ body {
 
 .header{
   margin-top: 20px;
+  top: 0;
+  left: 0;
+  position: sticky;
+  background-color: white;
+  z-index: 99;
+  padding: 4px 0 2px 0;
 }
 
 .search-box {
@@ -91,6 +97,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .username {
@@ -167,7 +174,7 @@ body {
 }
 
 .images-card{
-  width: 180px; /* or any size */
+  width: 180px; 
   height: 180px;
   border-radius: 12px;
   overflow: hidden;
